@@ -9,6 +9,7 @@ print(data.isnull().sum())
 data = data.dropna()
 data.info()
 print(data.Gender.value_counts())
+# jeevansunny  
 
 # Tumour Stage
 stage = data["Tumour_Stage"].value_counts()
